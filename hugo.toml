@@ -1,0 +1,35 @@
+baseURL = "https://lihen233.github.io.git"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+
+[params]
+  description = "个人记录"
+  author = "鹤年"
+  
+  # 启用深色模式切换
+  defaultTheme = "auto"
+  
+  # 社交媒体链接
+  [[params.socialIcons]]
+  name = "github"
+  url = "您的GitHub地址"
+
+[menu]
+  [[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 10
+  
+  [[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 20
+  
+  [[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 30
